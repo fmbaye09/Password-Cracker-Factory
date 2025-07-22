@@ -52,8 +52,7 @@ java -cp bin CrackerApp --type dictionary --target online --login admin --dict d
 
 ### Diagramme de classes UML
 
-
-[Classe UML.png](https://github.com/fmbaye09/Password-Cracker-Factory/blob/8b0f45bc659606a2ef3328070e547527dc40f59b/Classe%20UML.png)
+![Classe UML.png](https://github.com/fmbaye09/Password-Cracker-Factory/blob/8b0f45bc659606a2ef3328070e547527dc40f59b/Classe%20UML.png "Diagramme de classe")
 
 
 ---
