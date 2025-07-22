@@ -8,13 +8,16 @@ qwerty
 abcdefg
 ecole123
 etudiant
+abcd12
 mdp
 Passer@2025
 passer2025
 helloworld
 abcd1234
 Abcd1234
+12345678
 1234
+87654321
 motdepasse
 passer1234
 admin 
