@@ -42,8 +42,8 @@ public class OnlineTarget implements Target {
             in.close();
 
             // Vérifie si la réponse contient "Connexion réussie"
-            boolean success = response.toString().contains("Connexion réussie");
-            System.out.println("Tentative en ligne avec : " + login + "/" + password + " => " + (success ? "Succès" : "Échec"));
+            boolean success = response.toString().contains("Connexion reussie");
+            System.out.println("Tentative en ligne avec : " + login + "/" + password + " => " + (success ? "Succes" : "Echec"));
             return success;
 
         } catch (Exception e) {

@@ -3,7 +3,7 @@ $success = false;
 if (isset($_POST['login']) && isset($_POST['password'])) {
     $login = $_POST['login'];
     $password = $_POST['password'];
-    if ($login === 'admin' && $password === 'passer1234') {
+    if ($login === 'admin' && $password === 'abcd12') {
         $success = true;
     }
 }

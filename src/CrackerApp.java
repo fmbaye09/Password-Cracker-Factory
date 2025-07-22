@@ -90,7 +90,7 @@ public class CrackerApp {
         }
 
         if (factory == null) {
-            System.out.println("Erreur : combinaison type/cible non supportée.");
+            System.out.println("Erreur : combinaison type/cible non supportee.");
             return;
         }
 

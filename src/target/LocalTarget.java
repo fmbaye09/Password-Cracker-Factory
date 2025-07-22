@@ -6,7 +6,7 @@ package target;
 public class LocalTarget implements Target {
     // Identifiants valides codés en dur
     private final String correctLogin = "admin";
-    private final String correctPassword = "passer1234";
+    private final String correctPassword = "abcd12";
 
     /**
      * Vérifie si le login et le mot de passe correspondent aux valeurs attendues.
@@ -17,7 +17,7 @@ public class LocalTarget implements Target {
     @Override
     public boolean authenticate(String login, String password) {
         boolean success = correctLogin.equals(login) && correctPassword.equals(password);
-        System.out.println("Tentative avec : " + login + "/" + password + " => " + (success ? "Succès" : "Échec"));
+        System.out.println("Tentative avec : " + login + "/" + password + " => " + (success ? "Succes" : "Echec"));
         return success;
     }
 } 
